@@ -1,0 +1,6 @@
+# Configuration settings to connect to MuleSoft's training remote endpoints
+
+http:
+  port: "8081"
+
+
