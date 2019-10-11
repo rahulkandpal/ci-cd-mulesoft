@@ -32,7 +32,7 @@
 				      <username>rkandpal5</username>
 				      <password>*rk47@80K</password>
 				      <applicationName>ci-cd</applicationName>
-				      <environment>sanbox</environment>
+				      <environment>Sandbox</environment>
 				      <properties>
 				        <key>value</key>
 				      </properties>
