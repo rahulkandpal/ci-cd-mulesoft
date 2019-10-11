@@ -36,7 +36,7 @@
 				      <workerType>Micro</workerType>
 				      <workers>1</workers>
 				      <properties>
-				        <key>value</key>
+				        <http.port>8081</http.port>
 				      </properties>
 				    </cloudHubDeployment>
 				</configuration>
