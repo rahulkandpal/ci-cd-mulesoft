@@ -26,6 +26,17 @@
 				<version>${mule.maven.plugin.version}</version>
 				<extensions>true</extensions>
 				<configuration>
+					<cloudHubDeployment>
+				      <uri>https://anypoint.mulesoft.com</uri>
+				      <muleVersion>4.1.4</muleVersion>
+				      <username>rkandpal5</username>
+				      <password>*rk47@80K</password>
+				      <applicationName>ci-cd</applicationName>
+				      <environment>sanbox</environment>
+				      <properties>
+				        <key>value</key>
+				      </properties>
+				    </cloudHubDeployment>
 				</configuration>
 			</plugin>
 		</plugins>
