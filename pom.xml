@@ -28,12 +28,14 @@
 				<extensions>true</extensions>
 				<configuration>
 				    <cloudHubDeployment>
-				      <uri>https://anypoint.mulesoft.com</uri>
-				      <muleVersion>${app.runtime}</muleVersion>
-				      <username>rkandpal5</username>
-				      <password>*rk47@80K</password>				      
-				      <applicationName>ci-cd</applicationName>	
-          			      <environment>Sandbox</environment>
+				      	 <uri>https://anypoint.mulesoft.com</uri>
+				      	 <muleVersion>${app.runtime}</muleVersion>
+				      	 <username>rkandpal5</username>
+				      	 <password>*rk47@80K</password>
+					 <environment>Sandbox</environment>
+				      	 <applicationName>ci-cd</applicationName>          			      
+				      	 <workerType>Micro</workerType>	
+				      	 <workers>1</workers>	    
 				    </cloudHubDeployment>
 				</configuration>
 				<executions>
