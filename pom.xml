@@ -40,8 +40,9 @@
 				      	 <username>rkandpal5</username>
 				      	 <password>*rk47@80K</password>
 					 <environment>Sandbox</environment>				      	           			      
-				      	 <workerType>Micro</workerType>	
+				      	 <workerType>MICRO</workerType>	
 				      	 <workers>1</workers>	    
+					 <region>us-east-2</region>
 					 <uri>https://anypoint.mulesoft.com</uri>  
 					 <applicationName>ci-cd</applicationName>
 				    </cloudHubDeployment>
