@@ -11,6 +11,6 @@ http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/htt
 	<flow name="ci-cdFlow" doc:id="d435700b-0ccc-4082-adeb-332f8651e9cd" >
 		<http:listener doc:name="Listener" doc:id="5e35ccae-5eef-4fa4-85b6-c3f2ec1ae9e9" config-ref="HTTP_Listener_config" path="/cicd"/>
 		<logger level="INFO" doc:name="Logger" doc:id="4a758f8d-4234-4e91-b355-a04561b727f0" message="--------------sample flow-----------------------"/>
-		<set-payload value="ci cd sample project" doc:name="Set Payload" doc:id="ec08a9c1-4dcc-4d6f-aa2d-3efd0f75ac81" />
+		<set-payload value="ci cd successfully implemented" doc:name="Set Payload" doc:id="ec08a9c1-4dcc-4d6f-aa2d-3efd0f75ac81" />
 	</flow>
 </mule>
