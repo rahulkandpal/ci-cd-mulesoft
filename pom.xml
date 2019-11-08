@@ -27,13 +27,13 @@
 				<version>${mule.maven.plugin.version}</version>
 				<extensions>true</extensions>
 				<configuration>
-					<cloudHubDeployment>
+				    <cloudHubDeployment>
 				      <uri>https://anypoint.mulesoft.com</uri>
 				      <muleVersion>${app.runtime}</muleVersion>
 				      <username>rkandpal5</username>
 				      <password>*rk47@80K</password>				      
-				      <environment>Sandbox</environment>
-				      <applicationName>ci-cd</applicationName>				      
+				      <applicationName>ci-cd</applicationName>	
+          			      <environment>Sandbox</environment>
 				    </cloudHubDeployment>
 				</configuration>
 				<executions>
